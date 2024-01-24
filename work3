@@ -1,0 +1,4 @@
+print ("Bienvenido a catalogo de Restaurantes Por comidas")
+menu=str(input(" comidaItaliana " " comidaColombiana " " comidaChina "))
+if menu=="comidaItaliana"
+print("comidaItaliana"+menu)

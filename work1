@@ -1,0 +1,7 @@
+print("cual es tu edad ")
+edad=int(input("ingresa tu edad"))
+if   edad>18 :
+     print("eres mayor de edad puedes votar")
+elif edad<18 :
+     print("eres menor de edad no puedes votar")
+         

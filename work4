@@ -1,0 +1,7 @@
+#verificacion de contraseña 
+contraseña=str(input("ingrese su contraseña: "))
+if contraseña == 'contraseña' :
+    print ("esa es su contraseña")
+else:
+    print ("ey, esa no es tu contraseña")
+    

@@ -1,0 +1,17 @@
+palabra=input("ingrese una palabra:")
+#palabras solo en minusculas
+
+"palabra[::-1]"
+reversed=palabra[::-1]
+
+
+
+
+if palabra == reversed:
+    print("la palabra es palindromo")
+else: print("la palabra no es palindromo")
+    
+
+
+print(palabra)
+print(palabra[::-1])

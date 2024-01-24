@@ -1,0 +1,10 @@
+calificacion=int(input("ingresa calificacion"))
+if calificacion<=50 :
+   print("nota B ")
+elif calificacion<=75 :
+   print("nota C")
+elif calificacion<=85 :
+    print("nota B ")
+elif calificacion<=95 :
+   print("nota A ")
+   

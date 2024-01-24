@@ -1,4 +1,21 @@
-print ("Bienvenido a catalogo de Restaurantes Por comidas")
-menu=str(input(" comidaItaliana " " comidaColombiana " " comidaChina "))
-if menu=="comidaItaliana"
-print("comidaItaliana"+menu)
+import random
+
+print("quieres consultar para un Restaurante tenemos ComidaItaliana ComidaChina ComidaLatina") 
+restaurantes ={
+    "ComidaItaliana":["restaurante1 " "restaurante2" "restaurante3 "],
+    "ComidaChina":["restaurante4 ", "restaurante5", "restaurante6 "],
+    "ComidaLatina":["restaurante7", "restaurante8", "restaurante 9"]
+}
+      
+
+eleccionUsuario=input("elige un tipo de comida:")
+
+recomendacion=None
+
+if eleccionUsuario == " ComidaChina ":
+    recomendacion = random.choice(restaurantes["ComidaChina"]) 
+elif eleccionUsuario == "ComidaItaliana":
+    recomendacion = random.choice(restaurantes["ComidaItaliana"])
+elif eleccionUsuario == "ComidaLatina":
+    recomendacion = random.choice(restaurantes["ComidaLatina"])   
+print(f"Te recomiendo este restaurante: {recomendacion}")

@@ -1,0 +1,24 @@
+print("bienvenido usuario")
+
+nombre=input("cual es tu nombre")
+
+print("hola"+nombre)
+
+Horas=int(input("ingresa tus numeros de horas "))
+
+print(Horas)
+print("cuanto vale cada hora")
+
+precio=int(input("este es el precio de numero de horas"))
+
+costoFinal=Horas*precio
+
+#diego de la forma que esta debajo de este mensaje esta concatenando recuerdalo asi se concatena
+
+print(f"al señor {nombre} se le debe {costoFinal}")
+
+
+
+
+
+
